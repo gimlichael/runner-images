@@ -2,10 +2,10 @@
 param()
 
 . $PSScriptRoot\PathHelpers.ps1
-# . $PSScriptRoot\InstallHelpers.ps1
-# . $PSScriptRoot\ChocoHelpers.ps1
-# . $PSScriptRoot\TestsHelpers.ps1
-# . $PSScriptRoot\VisualStudioHelpers.ps1
+. $PSScriptRoot\InstallHelpers.ps1
+. $PSScriptRoot\ChocoHelpers.ps1
+. $PSScriptRoot\TestsHelpers.ps1
+. $PSScriptRoot\VisualStudioHelpers.ps1
 
 Export-ModuleMember -Function @(
     'Connect-Hive'

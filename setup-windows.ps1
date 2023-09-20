@@ -1,2 +1,7 @@
 Import-Module ".\images\win\scripts\ImageHelpers\ImageHelpers.psm1"
-Invoke-Expression ".\images\win\scripts\Installers\Install-DotnetSDK.ps1"
+Invoke-Expression ".\images\win\scripts\Installers\Configure-Antivirus.ps1"
+Invoke-Expression ".\images\win\scripts\Installers\Install-PowerShellModules.ps1"
+Invoke-Expression ".\images\win\scripts\Installers\Install-Choco.ps1"
+Invoke-Expression ".\images\win\scripts\Installers\Initialize-VM.ps1"
+Invoke-Expression ".\images\win\scripts\Installers\Update-ImageData.ps1"
+#Invoke-Expression ".\images\win\scripts\Installers\Install-DotnetSDK.ps1"
